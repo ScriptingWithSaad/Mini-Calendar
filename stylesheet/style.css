@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #1d0000, #20205b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d0000;
+}
+
+.calender{
+    width: 17%;
+    height: 32%;
+    background-color: #f0f8ff;
+    border-radius: .3vw;
+    display: flex;
+    font-size: 1.3vw;
+}
+
+.left{
+    width: 65%;
+    padding: 1vw 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right{
+    width: 55%;
+    background: #f4351e;
+    color: #fff;
+    border-top-right-radius: .3vw;
+    border-bottom-right-radius: .3vw;
+    padding: 1vw 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#date{
+    font-size: 5vw;
+    margin-bottom: -1vw;
+    font-weight: 500;
+    color: #2b2b2b;;
+}
+
+#day{
+    font-size: 1.3vw;
+}
+
+#month{
+    font-size: 1.6vw;
+    margin-bottom: -.3vw;
+}
+
+#year{
+    font-size: 1.3vw;
+}
